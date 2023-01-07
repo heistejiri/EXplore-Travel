@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLORE</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>EX</span>PLORE</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="Remember">
+        <label for="remember">Remember me</label>
+        <p>Forget password? <a href="#">Click here</a></p>
+        <p>Don't have and account? <a href="#">Register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>Dicover New Places With Us, Adventure Awaits</p>
+        <a href="#" class="btn">Find Adventure</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>Book Now</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="Place name">
+            </div>
+            <div class="inputBox">
+                <h3>How many</h3>
+                <input type="number" placeholder="Number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Book Now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>Packages</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-2.jfif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Cox's Bazar </h3>
+                <p>3 Nights & 2 Days Cox's Bazar Tour Including Enani Beach and Marine Drive</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> BDT 4500.00 <span>BDT 5000.00</span> </div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-1.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Saint Martin </h3>
+                <p>4 Nights & 2 Days Saint Martin Tour: Saint Martin & Cheradip</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> BDT 6500.00 <span>BDT 8000.00</span> </div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Sajek Valley </h3>
+                <p>4 Nights & 2 Days Sajek Valley Tour: Khagrachori & Sajek</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> BDT 5000.00 <span>BDT 6000.00</span> </div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Shunamganj </h3>
+                <p>3 Nights & 2 Days Shunamganj Tour: Shunamganj, Tanguar Haor & Niladri Lake</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <div class="price"> BDT 4000.00 <span>BDT 5000.00</span> </div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Jaflong </h3>
+                <p>3 Nights & 2 Days Jaflong Tour: Sylhet & Jaflong</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> BDT 4000.00 <span>BDT 5000.00</span> </div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Shitankunda </h3>
+                <p>3 Nights & 2 Days Shitankunda Tour: Chandranath, Guliakhali Beach, Shahasradhara Waterfall</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> BDT 4500.00 <span>BDT 5000.00</span> </div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>Services</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Resorts</h3>
+            <p>We "Explore" provide budget friendly, neat & clean Hotel & Resorts for you! We use advanced Algorithm to choose whice hotel would be best for you.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food And Drinks</h3>
+            <p>We have our own chef's and management team in most of the locations. However we have also good connection with the locals too.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safety Guide</h3>
+            <p>We have experienced travel guides and navigation-tracking system to track each travellers safety. And Emergency Medical team for any situation! </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around The World</h3>
+            <p>We aim to Explore the whole world and make wide connections. We will start trips outside the country from 2022 if COVID-19's effect decreases!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest Travel</h3>
+            <p>We choose the best and comfortable buses. Moreover, we have our own buses and drivers too. We are also looking to add flight's trips too! </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+            <p>Adventure is the experience of some exciting activities. It is an unusual experience that comes from activities filled with courage, enthusiasm, and joy. It never thinks about the result. Courageous people think of adventure as a new opportunity and opportunity to move forward and achieve success or experience through failure although cowardly people take it as a fearful act and never try to do it Huh.!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>Gallery</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Sajek Valley</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Saint Martin</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Sajek Valley</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Tanguar Haor</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Chandranath</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Amiakhum</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Jaflong</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Debotakhum</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.png" alt="">
+            <div class="content">
+                <h3>Saint Martin</h3>
+                <a href="#packages" class="btn">See more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>Review</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-1.jpg" alt="">
+                    <h3>Sabbir Hossain</h3>
+                    <p>The overall management was good. I would highly recommend to travel with Explore. They are way far very friendly</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-2.jpeg" alt="">
+                    <h3>Zafrin Faryat</h3>
+                    <p>It was a nice experience with Explore. I have never enjoyed any tour so much.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-3.jpg" alt="">
+                    <h3>Mizanur Rahman</h3>
+                    <p>Travelling with explore was a new experience for me. Highly recommended!
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-4.jpg" alt="">
+                    <h3>Jannatul Shefa</h3>
+                    <p>The Explore team was too friendly. I enjoyed the whole saint martin tour with them like a family</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>Contact</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About us</h3>
+            <p>Explore is a tour and travel management team which works for organizing adventurous tour. We provide most affordable, budget friendly, neat & clean Hotels for you! We advanced Algorithm to choose whice hotel & resort would be best for you.
+            We have experienced travel guides and navigation tracking system to track each travellers safety. And Emergency Medical team for any situation. </p>
+        </div>
+        <div class="box">
+            <h3>Our Locations</h3>
+            <a href="#">Dhaka</a>
+            <a href="#">Chittagong</a>
+
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/towhid.komol">Facebook</a>
+            <a href="https://www.instagram.com/towhid_komol/">Instagram</a>
+            <a href="https://twitter.com/TowhidKomol">Twitter</a>
+            <a href="https://www.linkedin.com/in/tawhid-komol-88a43b1a0/">Linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> Created By <span> Tawhid Ahmed Komol </span> | All Rights Reserved 2021 </h1>
+
+</section>
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
