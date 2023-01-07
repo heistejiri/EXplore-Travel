@@ -1,26 +1,33 @@
-# Explore Travels
+## ⭐ Explore Travels ⭐
 
-Explore is a tour and travel management website for agencies. Made by Tawhid Ahmed Komol using HTML, CSS & JavaScript. You can find me on the social media links below:
+⭕ **This Site is Fully Responsive**
+<br>
+<br>
 
+## 📌 **Live Site URL:** <a href="">**Visit Now** 🚀</a>
 
-##  My Profile Links
-[![portfolio](https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://tawhidkomol.github.io/Portfolio/index.html)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tawhid-komol-88a43b1a0//)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/TowhidKomol/)
-[![facebook](https://img.shields.io/badge/facebook-1DA1F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/towhid.komol/)
-[![facebook](https://img.shields.io/badge/instagram-1DA1F2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/towhid_komol/)
+<br>
 
-## Demo
+## 📌 Tech Stack
 
-Explore Travel website demo: https://tawhidkomol.github.io/Xplore-Travel/
+[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/prakash-naikwadi)&nbsp;
+[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/prakash-naikwadi)&nbsp;
+[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/prakash-naikwadi)
+<br>
+<br>
 
-## Project Screenshots
+## 📌 Overview
 
-![App Screenshot](https://github.com/TawhidKomol/Xplore-Travel/blob/main/images/UI.jpg?raw=true)
-
-
-
-![App Screenshot](https://github.com/TawhidKomol/Xplore-Travel/blob/main/images/ss1.png?raw=true)
+<br>
 
 
-![App Screenshot](https://github.com/TawhidKomol/Xplore-Travel/blob/main/images/ss2.png?raw=true)
+## 📬 Connect With Me
+
+- **LinkedIn** - [OgheneTejiri Agoro](https://www.linkedin.com/in/heistejiri/)
+- **Twitter** - [@Heistejiri](https://www.twitter.com/heistejiri)
+
+## 📌 Acknowledgments
+
+- Icons Used For Tech Stack Section - [https://img.shields.io](https://img.shields.io)
+- This ReadMe File Inspired From - [Jigar Sable](https://github.com/jigar-sable)
+
